@@ -80,8 +80,8 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", 10284859))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "6737983945:AAFH_g1-HtZT4ZHc5-RGDOmLBbF_gFGIzr8")
+STRING_SESSION = getenv("STRING_SESSION", "BQDMBnkAUAT07ba_FhaUng1I3ShLuciewUMN5mCQmOdW61HeJBOi1YWbh6N8YnQqMTgc7q88wMQtW3Pbjp7fjO6Ku06ykgkqzFaDVUIgTyDNicIkB_9Q8zlRy-uibi93HdXO_nNRaTJrFAmycgJ00Tc8am7xlPwiY91Z7R5RsQhgzkUJ0gOJcPwvTSJX-bSTRvZG31FVLM8etSwf_9EsAyO_BD759cgfqst_Y7cq3tYlaPeAgoaTrwOw7leVZ8iarsi5jwtcySBSo8pVr2QKfMG0ABxM8WVTs54s6cJd_5Xi02Ia0EZkYclv2gSmcdGSV43oiLjLmt4FhrmDBhzvM0AJiUTEbgAAAAHjb-HaAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "1281282633"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001735663878"))
