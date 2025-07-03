@@ -78,14 +78,14 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", 10284859))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
-OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001992970818"))
-START_IMAGE_URL = getenv("START_IMAGE_URL","https://envs.sh/oKU.jpg")
+OWNER_ID = int(getenv("OWNER_ID", "1281282633"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001735663878"))
+START_IMAGE_URL = getenv("START_IMAGE_URL","https://telegra.ph/file/e5aaa494015bccbe1ec85.jpg")
 
 
 # Memory Database
